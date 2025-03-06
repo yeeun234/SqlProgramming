@@ -8,7 +8,7 @@ public class DBConnect {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			Connection con = DriverManager.getConnection("jdbc:mysql://10.125.121.177:3306/world","musthave","tiger");
+			Connection con = DriverManager.getConnection("jdbc:mysql://아이피주소:3306/world","musthave","tiger");
 			System.out.println("연결 성공");
 			con.close();
 		}catch(Exception e) {
